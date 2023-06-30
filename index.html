@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="column-container">
+            <h3>Luca Goers</h3>
+            <img src="LucaGoers.webp">
+            <h4 id="visitor-score" class="score">0</h4>
+            <button onclick="incrementScore('visitor', 1)">+1</button>
+            <button onclick="incrementScore('visitor', 2)">+2</button>
+            <button onclick="incrementScore('visitor', 3)">+3</button>
+        </div>
+        <div class="column-container">
+            <h3>Besaid Aurochs</h3>
+            <img src="BesaidAurochs.png">
+            <h4 id="home-score" class="score">0</h4>
+            <button onclick="incrementScore('home', 1)">+1</button>
+            <button onclick="incrementScore('home', 2)">+2</button>
+            <button onclick="incrementScore('home', 3)">+3</button>
+        </div>
+    </div>
+    </div>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>

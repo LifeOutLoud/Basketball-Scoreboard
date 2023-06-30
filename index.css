@@ -1,0 +1,58 @@
+* { 
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body {
+    background-image: url("BlitzBallBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+}
+
+ body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+.score {
+    /* background-image: url("BesaidAurochs.png"); */
+    background-size: cover;
+    /* padding: 30px 10px 40px 10px; */
+    font-size: 90px;
+    color: #F94F6D;
+    width: 150px;
+    margin: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    align-items: center;
+    /* background-color: red; */
+    
+}
+
+.column-container {
+    text-align: center;
+    margin: auto 100px auto 100px;
+    
+}
+
+img {
+  /* border: 1px solid #ddd;
+  border-radius: 4px; */
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+    
+}
+
+button {
+    background: none;
+}
+
