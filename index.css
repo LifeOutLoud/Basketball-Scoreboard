@@ -9,14 +9,23 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%;
-    margin: 0;
+    max-height: 900px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+html {
+     border: solid red 20px;
+    margin-top: 50px;
+    
 }
 
  body {
+    
       display: flex;
       justify-content: center;
       align-items: center;
+      
     }
 
 .score {
